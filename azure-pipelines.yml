@@ -10,6 +10,13 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
+- task: DotNetCoreCLI@2
+  displayName: Build
+  inputs:
+    command: build
+    projects: '**/*.csproj'
+    arguments: '--configuration $(buildConfiguration)' # Update this to match your need
+
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
