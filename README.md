@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/banking-circle-payment-systems/crm/_apis/build/status/Test/Munir%20Testing%20CI-CD?branchName=azure-pipelines)](https://dev.azure.com/banking-circle-payment-systems/crm/_build/latest?definitionId=752&branchName=azure-pipelines)
+
 # Sample ASP.NET Core application for Azure Pipelines docs
 
 For information on how to set up a pipeline for this repository, see [Create your first pipeline](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azure-devops).
